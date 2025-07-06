@@ -6,7 +6,7 @@ import 'bloc/chat_event.dart';
 import 'bloc/chat_state.dart';
 import 'services/openai_service.dart';
 
-// Importa los widgets personalizados por estado
+
 import 'widgets/chat_initial_widget.dart';
 import 'widgets/chat_loading_widget.dart';
 import 'widgets/chat_success_widget.dart';
