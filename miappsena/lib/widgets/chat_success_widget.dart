@@ -11,9 +11,13 @@ class ChatSuccessWidget extends StatelessWidget {
       child: Container(
         alignment: Alignment.topLeft,
         padding: const EdgeInsets.all(12),
+        color: Colors.black, // Fondo oscuro
         child: Text(
           response,
-          style: const TextStyle(fontSize: 16),
+          style: const TextStyle(
+            fontSize: 16,
+            color: Colors.white, // Color de texto blanco para resaltar
+          ),
         ),
       ),
     );
